@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Change Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="index.js"></script>
+</head>
+<body>
+	<h1>Change Calculator!</h1>
+	<div class="container left-align">
+		<div class="input">
+			<label for="amount-due">How much is due for the sale?</label>
+			<input id="amount-due" type="text">
+		</div>
+		<div class="input">
+			<label for="amount-given">How much has the customer given you?</label>
+			<input id="amount-given" type="text">
+		</div>
+	</div>
+	<div class="container">
+		<div class="column">	
+			<label for="dollars" class="dollar label">Dollars</label>
+			<div class="output" id="dollars">0</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="column">
+			<label for="quarters" class="label">Quarters</label>
+			<div class="output" id="quarters">0</div>
+		</div>
+		<div class="column">
+			<label for="dimes" class="label">Dimes</label>
+			<div class="output" id="dimes">0</div>
+		</div>
+		<div class="column">
+			<label for="nickels" class="label">Nickels</label>
+			<div class="output" id="nickels">0</div>
+		</div>
+		<div class="column">
+			<label for="pennies" class="label">Pennies</label>
+			<div class="output" id="pennies">0</div>
+		</div>
+	</div>
+	<button onclick="displayChange()">Calculate</button>
+</body>
+</html>

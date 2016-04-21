@@ -1,0 +1,39 @@
+*{
+	text-align:center;
+	font-family: Verdana;
+}
+
+.container{
+	display:flex;
+	flex-direction: row;
+	padding:20px;
+	margin:15px;
+	background-color: #3E18FD;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	color:white;
+}
+
+.column{
+	display:flex;
+	flex-direction: column;
+	
+}
+
+.label{
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.output{
+	font-size: 14pt;
+}
+
+.left-align{
+	text-align: left;
+	justify-content:flex-start;
+}
+
+.input{
+	padding:10px;
+}
